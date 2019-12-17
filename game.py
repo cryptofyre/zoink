@@ -1,16 +1,3 @@
-# Allen can't speak proper english edition.
-# Now with more autism!
-# and really bad story line
-import os
-import time
-# Check version for updates. If updates are present they will install here.
-print("Grabbing version info...")
-time.sleep(2)
-print("Installing latest build of Zoink. (FireUpdater v1)")
-os.system("git clone https://github.com/iiFir3z/zoink.git")
-print("Update successfully installed. Starting application.")
-time.sleep(4)
-os.system("clear")
 # Starting application.
 print("Would you like to play Zoink?")
 playing = input("Type 1 to play type 2 to quit ")
@@ -34,10 +21,6 @@ if playing == "1" :
   print("Your name is Shaggy and you are currently at a Nordstrom in Kurkuk, Iraq. ")
   print("Please input your movement. You can move North and West.")
   loc1 = input("")
-  
-
-
-
   if loc1 == ("go north"):
     os.system("clear")
     print("You walk north attempting to avoid the makeup artists but you are stopped by a YouTuber named James Charles. He asks if you would be intrested in a video with him. What do you say? (y for yes n for no)")
