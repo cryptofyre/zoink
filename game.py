@@ -59,29 +59,29 @@ if playing == "1" :
           print("You run as fast as you can all you hear behind you is gun shots you turn to see him lying lifeless on the mall tile.")
           time.sleep(10)
           os.system("clear")
-          print("After running for what seems like forever you are now at a McDonalds.")
-          print("Enter the McDonalds? (y for yes n for no)")
+          print("After running for what seems like forever you are outside a McDonalds.")
+          print("Enter the McDonalds? (y) (n)")
           loc2 = input()
           if loc2 == ("y"):
-            print("You walk into the McDonalds and the employee at the order desk says 'Welcome to McDonalds! How may I take your order!' [Big Mac] or [Whopper]")
+            print("You walk into the McDonalds and the employee at the order desk says 'Welcome to McDonalds! What would you like today!' [Big Mac] or [Whopper]")
             if input() == ("Big Mac"):
-              print("the cashier give you the burger and you walk out the door but it was a chigus big mac you are now fat and slow(Hint:Now attaking and running should only be used if it needs be try to avoid confrontation) ")
-              print("you walk out side and se a shadowy figure walk towards you, he's holding somthing in his hand. do you hide left, hide right, or fight.")
+              print("The cashier gives you the burger and you proceed to walk out the door but it was a chungus Big Mac you are now extra thicc but the downside is your extra slow (Tip: Now attacking and running should only be used if it needs be try to avoid confrontation) ")
+              print("You walk out side and see a shadow like figure walk towards you, he's holding something in his hand. Do you hide left, hide right, or fight.")
               if input()==("hide left"):
-                print("The figure walks around the corner and sees you. He then caps your ass.")
-              time.sleep(10)
+                print("The figure walks around the corner and sees you. He then pops a cap in your ass. The figure then notices your phone and calls your parents and siblings to tell them you are taken under hostage. Later the siblings and parents arrive and get shot in a quick and easy move.")
+              time.sleep(5)
               os.system("clear")
-              print("[Ending 6]")
+              print("Worst Ending")
               if input()==("hide right"):
-                print("He walks past you. You get away but you hear gunshots. Mr King shot up the mcdonalds. ")
-              time.sleep(10)
+                print("He walks past you. You get away but you hear gunshots. The shadow figure shot up the McDonalds. ")
+              time.sleep(5)
               os.system("clear")
-              print("Good Ending 1")
+              print("Good Ending")
               if input()==("fight"):
-                print("why dont people listen")
-              time.sleep(10)
+                print("You attempt to throw a punch but end up on the ground. In one swift move the shadow figure pops a cap in your ass but the extra thicc cheeks fire the bullet back towards the attacker killing him instantly.")
+                time.sleep(5)
               os.system("clear")
-              print("[ending 7]")
+              print("Best Ending")
         
             elif input()==("Whopper"):
               print("the cashier eyes turn red, blood stars raining like a waterfall. The cashier yells words that cant be comprehended.") 
@@ -89,7 +89,7 @@ if playing == "1" :
               print("You got three options a. leave. b. say Big Mac. c. die")
             if input()==("a"):
               print("you walk away and the doors then turn into a brick wall he then proceeds to stab you with his extral large fry.")
-              time.sleep(10)
+              time.sleep(5)
               os.system("clear")
               print(" you died to a fucking clown, and the world biggets fry. What a tasty way to die. [Ending 3]")
             elif input()==("b"):
