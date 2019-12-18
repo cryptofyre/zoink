@@ -3,7 +3,6 @@
 # and really bad story line
 import os
 import time
-import filecmp
 # Check version for updates. If updates are present they will install here.
 print("Grabbing version info...")
 os.system("wget -O latest.txt https://raw.githubusercontent.com/iiFir3z/zoink/master/latest.txt")
