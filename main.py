@@ -3,14 +3,16 @@
 # and really bad story line
 import os
 import time
-import filecmp
 # Check version for updates. If updates are present they will install here.
 print("Grabbing version info...")
 os.system("wget -O latest.txt https://raw.githubusercontent.com/iiFir3z/zoink/master/latest.txt")
-currentver = open("ver.txt", "r")
-latestver = open("latest.txt", "r")
+currentopen = open("ver.txt", "r")
+currentver = currentopen.read()
+latestopen = open("latest.txt", "r")
+latestver = latestopen.read()
 if currentver == latestver :
   print("Up to date! Continuing with program.")
+  os.system("clear")
   os.system("python game.py")
 else:
   print("Version is out of date!")

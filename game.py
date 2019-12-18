@@ -21,7 +21,6 @@ if playing == "1" :
   print("Your name is Shaggy and you are currently at a Nordstrom in Kurkuk, Iraq. ")
   print("Please input your movement. You can move North and West.")
   loc1 = input("")
-  if loc1 == ("West")
   if loc1 == ("go north"):
     os.system("clear")
     print("You walk north attempting to avoid the makeup artists but you are stopped by a YouTuber named James Charles. He asks if you would be intrested in a video with him. What do you say? (y for yes n for no)")
