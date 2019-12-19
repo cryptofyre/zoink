@@ -1,5 +1,7 @@
 # Zoink BETA
 An open source game made by Fire, Jack, Allen, Ethan
+# Read me before running.
+**Run setup.py install before running**
 ## Requirements
 Python 3.7 - 3.8 required.
 A windows system
